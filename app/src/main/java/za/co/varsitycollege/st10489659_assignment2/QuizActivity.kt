@@ -38,14 +38,14 @@ class QuizActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_quiz)
 
-        //Initialise your views first
-        findViewById<TextView>(R.id.textviewQuestions)
-        val falseButton = findViewById<Button>(R.id.falseButton)
-        val trueButton = findViewById<Button>(R.id.trueButton)
-        val nextButton = findViewById<Button>(R.id.nextButton)
-        findViewById<TextView>(R.id.feedbackTextView)
+        //Initialise ALL views before using them
+        textviewQuestion = findViewById<TextView>(R.id.textviewQuestions)
+        falseButton = findViewById<Button>(R.id.falseButton)
+        trueButton = findViewById<Button>(R.id.trueButton)
+        nextButton = findViewById<Button>(R.id.nextButton)
+        feedbackTextView = findViewById<TextView>(R.id.feedbackTextView)
 
-        // then call any methods that use those views
+        // Now safe to update UI
         updateQuestion()
 
         falseButton.setOnClickListener {
