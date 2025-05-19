@@ -1,4 +1,5 @@
 Yan Ritha Umumararungu Uwamariya - ST10489659/ Assignment 2
+
 This Android software uses flashcards to help users test their knowledge in an easy-to-use but entertaining quiz format. Users must select True or False for each statement that appears on the flashcard. Based on their accurate responses, users are given a score at the end of the quiz.
 
 Who it's for:
@@ -8,7 +9,7 @@ GitHub link: https://github.com/VCCT-IMAD5112-2025-G1/Assignment-2---ST10489659
 
 YouTube link:
 
-FAQ
+FAQ:
 Question 1 How do I play the quiz?
 Answer 1: A statement will appear on the screen. Depending on your response, tap True or False. You will receive immediate feedback following each question, at which point you can go to the next one.
 
@@ -24,36 +25,38 @@ Answer 4: The app is completely functional offline, yes. There is no requirement
 Question 5 hat happens after I finish the quiz?
 Answer 5: After seeing your final result, you have the option to either end the program or restart the quiz.
 
-Features
+Features:
 Stylish, Motivational Welcome Screen
 A welcoming and motivating study area is created with an eye-catching flower pattern and soothing blue hues.
 
 Bold opening statement: "To demonstrate your genius, tap 'START'!" creates a thrilling atmosphere.
 
-Three Simple Screens
+Three Simple Screens:
 Screen 1: Welcome and Start
 
 Screen 2: Quiz interface (question + True/False buttons)
 
 Screen 3: Results screen with score and restart option
 
-Engaging True/False Knowledge Quiz
+Engaging True/False Knowledge Quiz:
 Real facts and falsehoods about a variety of subjects, including science, language, history, and general trivia, are presented in the app.
 Instant Answer Feedback
 Users receive instant feedback on their correctness or incorrectness, which strengthens learning and adds interactivity to the experience.
 
 Perfect for quick revision and memory recall exercises.
 
-Final Score Display
+Final Score Display:
 The user sees their score (e.g., 4 out of 5) after answering all the questions. Promotes replayability and gradual progress.
-Designed for Fun Learning
+Designed for Fun Learning:
 Incorporates fun, curiosity, and information into a quiz style.
 Excellent for:
 Students who like to revise informally
 Quick quizzes are used by teachers in the classroom.
 Fans of trivia who like unexpected information
-No Internet Required
+
+No Internet Required:
 Completely offline functionality: ideal for studying without data access or while commuting.
+
 API Reference
 Book:
 Phillips, J. (2021) Android Programming with Kotlin for Beginners. Birmingham: Packt Publishing.
