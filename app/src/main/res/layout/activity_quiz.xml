@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizletto__2_"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/textviewQuestions"
+        android:layout_width="329dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="548dp"
+        android:hint="Quiz questions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/falseButton"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="268dp"
+        android:text="False"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/trueButton"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="267dp"
+        android:text="True"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="57dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="226dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="424dp"
+        android:hint="Feedback"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
