@@ -11,14 +11,16 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class QuizActivity : AppCompatActivity() {
+
     //Questions
-    val questions = arrayOf(
-        "Bananas grow on trees",
-        "The word \"bookkeeper\" has three consecutive double letters",
-        " The Great Fire of London killed thousands of people",
-        " “Uncopyrightable” is the longest English word without a repeating letter",
-        "Humans glow in the dark, but it's invisible to the naked eye"
-    )
+    val questions: Array<String>
+        get() = arrayOf(
+            "Bananas grow on trees",
+            "The word \"bookkeeper\" has three consecutive double letters",
+            " The Great Fire of London killed thousands of people",
+            "“Uncopyrightable” is the longest English word without a repeating letter",
+            "Humans glow in the dark, but it's invisible to the naked eye"
+        )
 
     val answers = booleanArrayOf(false, true, false, true, true)
 
@@ -32,21 +34,22 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var trueButton: Button
     private lateinit var nextButton: Button
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_quiz)
 
-        //Initialise ALL views before using them
+        //Initialise UI components
         textviewQuestion = findViewById<TextView>(R.id.textviewQuestions)
         falseButton = findViewById<Button>(R.id.falseButton)
         trueButton = findViewById<Button>(R.id.trueButton)
         nextButton = findViewById<Button>(R.id.nextButton)
         feedbackTextView = findViewById<TextView>(R.id.feedbackTextView)
 
-        // Now safe to update UI
+        // Show the first question
         updateQuestion()
+
 
         falseButton.setOnClickListener {
             checkAnswer(false)
