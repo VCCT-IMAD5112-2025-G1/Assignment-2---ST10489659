@@ -17,29 +17,14 @@
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="548dp"
         android:hint="Quiz questions"
+        android:scrollbarSize="16dp"
+        android:textAlignment="center"
         android:textColorHint="#E91E63"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/falseButton"
-        android:layout_width="143dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="417dp"
-        android:layout_marginEnd="212dp"
-        android:layout_marginBottom="262dp"
-        android:text="False"
-        android:textColor="#E40808"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/trueButton"
@@ -80,6 +65,22 @@
         android:layout_marginBottom="424dp"
         android:hint="Feedback"
         android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/falseButton"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="261dp"
+        android:text="False"
+        android:textColor="#F80606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

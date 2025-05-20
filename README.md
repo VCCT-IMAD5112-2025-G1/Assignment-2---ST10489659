@@ -68,3 +68,22 @@ Android Developer Documentation
 Google. (2024) Activities and Intents. Android Developers. Available at: https://developer.android.com/guide/components/activities/intro-activities (Accessed: 19 May 2025).
 Kotlin Language Documentation
 JetBrains. (2024) Kotlin language documentation. Available at: https://kotlinlang.org/docs/home.html (Accessed: 19 May 2025).
+
+Screenshots:
+
+![Screen 1](https://github.com/user-attachments/assets/d1923d45-dba5-4aa0-a664-fa0592df813b)
+![Code 1](https://github.com/user-attachments/assets/c5e073e5-6f65-4cf8-a650-1ef9950dd5cd)
+![Screen 2](https://github.com/user-attachments/assets/7e831702-119a-439b-8d08-d2af71003a9f)
+![Code 2 1](https://github.com/user-attachments/assets/66cee143-afce-4e72-987f-4f495f5e0988)
+![Code 2 2](https://github.com/user-attachments/assets/6aa43d14-3b83-444e-b6b4-fcd930f6b8ca)
+![Code 2 3](https://github.com/user-attachments/assets/295da2ac-861e-4794-a3fe-e867529bf436)
+![Screen 3](https://github.com/user-attachments/assets/72c171a8-170d-4af9-8c15-5d54b98210a4)
+![Code 3](https://github.com/user-attachments/assets/6f87c474-ae00-46fa-86ef-f09d0eb443ae)
+
+
+
+
+
+
+
+
