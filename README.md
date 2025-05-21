@@ -1,9 +1,6 @@
 Yan Ritha Umumararungu Uwamariya - ST10489659/ Assignment 2
 
-This Android software uses flashcards to help users test their knowledge in an easy-to-use but entertaining quiz format. Users must select True or False for each statement that appears on the flashcard. Based on their accurate responses, users are given a score at the end of the quiz.
-
-Who it's for:
-Students, teachers, and anybody else wishing to reinforce learning with brief, interactive reviews or get ready for an exam will find this app excellent. It is easily adaptable to a variety of subjects, including general trivia, science, history, and language acquisition.
+This Android app asks users to respond to True or False questions using flashcards in an entertaining and simple quiz style. It may be tailored to subjects like trivia, science, history, or languages and is perfect for students, instructors, or anybody else wishing to review or be ready for tests.
 
 GitHub link: https://github.com/VCCT-IMAD5112-2025-G1/Assignment-2---ST10489659 
 
