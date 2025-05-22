@@ -18,6 +18,7 @@
         android:layout_marginBottom="589dp"
         android:hint="Score"
         android:textAlignment="center"
+        android:textColor="#FFEB3B"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
