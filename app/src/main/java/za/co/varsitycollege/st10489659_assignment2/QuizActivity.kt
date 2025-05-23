@@ -47,6 +47,24 @@ class QuizActivity : AppCompatActivity() {
         nextButton = findViewById<Button>(R.id.nextButton)
         feedbackTextView = findViewById<TextView>(R.id.feedbackTextView)
 
+        // Load the current question
+        @SuppressLint("SetTextI18n")
+        fun updateQuestion() {
+            textviewQuestion.text = questions[currentIndex]
+            feedbackTextView.text = ""
+        }
+
+        // Check user answer and more to next question or result
+        @SuppressLint("SetTextI18n")
+        fun checkAnswer(userAnswer: Boolean) {
+            val correct = answers[currentIndex]
+            if (userAnswer == correct) {
+                feedbackTextView.text = "Correct, well done!"
+                score++
+            } else {
+                feedbackTextView.text = "Incorrect, try again next time!"
+            }
+
         // Show the first question
         updateQuestion()
 
@@ -71,32 +89,13 @@ class QuizActivity : AppCompatActivity() {
                 finish()
             }
 
-        }
-    }
-
-    // Load the current question
-    @SuppressLint("SetTextI18n")
-    fun updateQuestion() {
-        textviewQuestion.text = questions[currentIndex]
-        feedbackTextView.text = ""
-    }
-
-    // Check user answer and more to next question or result
-    @SuppressLint("SetTextI18n")
-    fun checkAnswer(userAnswer: Boolean) {
-        val correct = answers[currentIndex]
-        if (userAnswer == correct) {
-            feedbackTextView.text = "Correct, well done!"
-            score++
-        } else {
-            feedbackTextView.text = "Incorrect, try again next time!"
-        }
-
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+            ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+                val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+                v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+                insets
+                }
+            }
         }
     }
 }
+
